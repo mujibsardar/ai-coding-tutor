@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Coding Tutor (USA) — Learn to Code Faster with ChatGPT, Copilot, Cursor & Claude | Avan</title>
+    <meta name="description" content="AI Coding Tutor for beginners and junior developers in the USA. Learn how to use ChatGPT, GitHub Copilot, Cursor, Claude, and AI agents the right way to build apps, fix bugs, and master fundamentals. 1:1 project-based mentorship. Also offering startup MVP app builds.">
+    <meta name="keywords" content="AI coding tutor, AI programming tutor, learn to code with AI, ChatGPT tutor, Copilot tutor, Cursor tutor, Claude tutor, AI agents, prompt engineering tutor, USA coding mentor, beginner coding tutor, startup app development, MVP">
+    <link rel="canonical" href="https://aicodingtutor.org">
+    <meta property="og:title" content="AI Coding Tutor — Learn to Code Faster with ChatGPT, Copilot, Cursor & Claude (USA)">
+    <meta property="og:description" content="US-based 1:1 mentorship that teaches you how to use AI tools correctly to build apps, debug, and learn to code with confidence. Startup MVP builds available.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aicodingtutor.org">
+    <meta property="og:image" content="https://aicodingtutor.org/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Coding Tutor — Learn to Code Faster with ChatGPT, Copilot, Cursor & Claude (USA)">
+    <meta name="twitter:description" content="Beginners & juniors: master AI-assisted coding. Project-based mentorship. Startup MVP builds available.">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Avan Sardar",
+      "jobTitle": "AI Coding Tutor",
+      "url": "https://aicodingtutor.org",
+      "image": "https://aicodingtutor.org/avatar.jpg",
+      "knowsAbout": ["AI coding tutor","ChatGPT","GitHub Copilot","Cursor","Claude","AI agents","prompt engineering","JavaScript","Python","React","Node.js","startup MVP"],
+      "areaServed": "US",
+      "worksFor": {"@type": "Organization","name": "AI Coding Tutor"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What do I actually get from this AI coding tutoring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You get a repeatable workflow to build real apps with AI: goal → plan → prompt → code → debug → review → ship. You’ll learn safe, effective use of ChatGPT, GitHub Copilot, Cursor, Claude, and AI agents for everyday coding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is this for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "US-based beginners and junior developers who want to learn faster by using AI tools correctly—not as a crutch, but as a multiplier for understanding and output."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you build apps for startups?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I offer limited-capacity MVP and feature-build services for US-based founders: scope, architecture, build, test, deploy, and handoff—with repo ownership and documentation."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config','GA_MEASUREMENT_ID');</script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home"><i class="fas fa-robot me-2"></i>Avan — AI Coding Tutor (USA)</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#offer">What You Get</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Tools Covered</a></li>
+            <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="#curriculum">Curriculum</a></li>
+            <li class="nav-item"><a class="nav-link" href="#startups">For Startups</a></li>
+            <li class="nav-item"><a class="nav-link" href="#success-stories">Results</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-7">
+            <h1 class="hero-title">AI Coding Tutor for <span class="text-primary">Beginners & Junior Devs</span> (USA)</h1>
+            <p class="hero-subtitle">You don’t need a human for every lesson—<strong>you need to master how to use AI to learn and build</strong>.<br>I’ll teach you proven workflows with <strong>ChatGPT</strong>, <strong>GitHub Copilot</strong>, <strong>Cursor</strong>, <strong>Claude</strong>, and <strong>AI agents</strong> so you can ship apps, fix bugs, and think like a developer.</p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-primary btn-lg me-3"><i class="fas fa-calendar-check me-2"></i>Free Intro Call</a>
+              <a href="#offer" class="btn btn-outline-light btn-lg"><i class="fas fa-bolt me-2"></i>See What You Get</a>
+            </div>
+            <div class="hero-stats mt-4">
+              <div class="row text-center">
+                <div class="col-4"><div class="stat-number">1000+</div><div class="stat-label">Sessions</div></div>
+                <div class="col-4"><div class="stat-number">95%</div><div class="stat-label">Satisfaction</div></div>
+                <div class="col-4"><div class="stat-number">5+ yrs</div><div class="stat-label">Mentoring</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 text-center"><div class="hero-image"><i class="fas fa-laptop-code fa-9x text-primary" aria-hidden="true"></i></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="offer" class="py-5 bg-light">
+      <div class="container">
+        <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">Exactly What You’ll Get</h2><p class="section-subtitle">Straightforward, outcome-focused mentoring for new developers who want results fast.</p></div></div>
+        <div class="row">
+          <div class="col-lg-6 mb-4"><div class="success-card"><div class="success-header"><h3>✅ A Repeatable AI Coding System</h3><span class="badge bg-success">Your Playbook</span></div><p class="success-description">A simple framework for every feature: <strong>Goal → Plan → Prompt → Code → Debug → Review → Ship</strong>.</p><div class="success-results"><strong>Outcome:</strong> You’ll stop guessing and start shipping.</div></div></div>
+          <div class="col-lg-6 mb-4"><div class="success-card"><div class="success-header"><h3>✅ Hands-On Project Building</h3><span class="badge bg-primary">Learn by Doing</span></div><p class="success-description">Pick a small app and build it end-to-end with AI the <em>right</em> way.</p><div class="success-results"><strong>Outcome:</strong> Portfolio pieces and real confidence.</div></div></div>
+          <div class="col-lg-6 mb-4"><div class="success-card"><div class="success-header"><h3>✅ “Wrong vs Right” AI Examples</h3><span class="badge bg-warning">No More Misuse</span></div><p class="success-description">Avoid vague prompts and blind copy-paste. Learn elite patterns that produce clean, working code.</p><div class="success-results"><strong>Outcome:</strong> Fewer dead ends. Faster fixes.</div></div></div>
+          <div class="col-lg-6 mb-4"><div class="success-card"><div class="success-header"><h3>✅ Career-Ready Habits</h3><span class="badge bg-info">Level Up</span></div><p class="success-description">AI-assisted reviews, refactors, docs, and test-first thinking—so you can thrive at work or in a bootcamp.</p><div class="success-results"><strong>Outcome:</strong> You’ll sound—and code—like a pro.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-5">
+      <div class="container">
+        <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">AI Tools We’ll Master</h2><p class="section-subtitle">Focused on the tools US learners ask for most—plus smart additions I recommend.</p></div></div>
+        <div class="row">
+          <div class="col-lg-4 mb-4"><div class="service-card"><div class="service-icon"><i class="fas fa-comments fa-3x text-primary"></i></div><h3>ChatGPT</h3><p>Design, explain, and debug with structured prompts that produce reliable code and clear reasoning.</p><ul class="service-features"><li>Prompt patterns that never waste time</li><li>“Explain this code” & bug triage</li><li>Spec → function → tests workflow</li></ul></div></div>
+          <div class="col-lg-4 mb-4"><div class="service-card"><div class="service-icon"><i class="fas fa-code fa-3x text-primary"></i></div><h3>GitHub Copilot & Cursor</h3><p>In-IDE completions and repo-aware edits that <em>teach as they code</em>. Refactor and document like a pro.</p><ul class="service-features"><li>2× faster feature delivery</li><li>Inline edits & repo insights</li><li>Test, docs, and review prompts</li></ul></div></div>
+          <div class="col-lg-4 mb-4"><div class="service-card"><div class="service-icon"><i class="fas fa-brain fa-3x text-primary"></i></div><h3>Claude & AI Agents</h3><p>Large-context planning, code reviews, and careful agent workflows to automate routine steps safely.</p><ul class="service-features"><li>Design docs & test plans</li><li>Large-file summaries & diffs</li><li>Intro to safe automation</li></ul></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="py-5 bg-light">
+      <div class="container">
+        <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">How It Works (Simple)</h2><p class="section-subtitle">Every session is practical and outcome-driven—no fluff, no lectures.</p></div></div>
+        <div class="row align-items-start">
+          <div class="col-lg-6">
+            <div class="success-card"><div class="success-header"><h3>1) Pick a Small App</h3><span class="badge bg-primary">Fast Start</span></div><p class="success-description">Landing page, REST API, or mini full-stack app. Scope that ships.</p><div class="success-results"><strong>Outcome:</strong> Clear target with bite-size milestones.</div></div>
+            <div class="success-card mt-4"><div class="success-header"><h3>2) Prompt → Build → Debug</h3><span class="badge bg-success">Hands-On</span></div><p class="success-description">Use proven prompts and in-IDE AI to generate code, catch errors, and learn as you go.</p><div class="success-results"><strong>Outcome:</strong> Working features and reusable patterns.</div></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="success-card"><div class="success-header"><h3>3) Review → Refactor → Tests</h3><span class="badge bg-warning">Professional</span></div><p class="success-description">AI-assisted reviews make your code readable, tested, and easy to extend.</p><div class="success-results"><strong>Outcome:</strong> Cleaner code and real understanding.</div></div>
+            <div class="success-card mt-4"><div class="success-header"><h3>4) Ship → Document → Portfolio</h3><span class="badge bg-info">Job-Ready</span></div><p class="success-description">Polish your README, capture screenshots, and publish. Now you’ve got receipts.</p><div class="success-results"><strong>Outcome:</strong> A shareable, career-ready project.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="curriculum" class="py-5">
+      <div class="container">
+        <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">Curriculum Snapshot (Beginner → Junior)</h2><p class="section-subtitle">Short, focused modules you can apply immediately.</p></div></div>
+        <div class="row">
+          <div class="col-lg-4 mb-4"><div class="service-card"><div class="service-icon"><i class="fas fa-seedling fa-3x text-primary"></i></div><h3>Week 1: Foundations</h3><ul class="service-features"><li>Set up IDE + Copilot/Cursor</li><li>Prompt patterns & context packs</li><li>Build your first feature + tests</li></ul></div></div>
+          <div class="col-lg-4 mb-4"><div class="service-card"><div class="service-icon"><i class="fas fa-layer-group fa-3x text-primary"></i></div><h3>Week 2: App Structure</h3><ul class="service-features"><li>APIs, routes, components</li><li>AI-assisted refactors & docs</li><li>Debugging drills</li></ul></div></div>
+          <div class="col-lg-4 mb-4"><div class="service-card"><div class="service-icon"><i class="fas fa-ship fa-3x text-primary"></i></div><h3>Week 3+: Ship & Polish</h3><ul class="service-features"><li>Reviews, tests, and deploy</li><li>Portfolio polish & README</li><li>Next-steps roadmap</li></ul></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW: For Startups -->
+    <section id="startups" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title">For Startups — MVP & Feature Builds</h2>
+            <p class="section-subtitle">Founder-friendly, AI-accelerated development for US-based startups. Limited capacity.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="pricing-card">
+              <div class="pricing-header">
+                <h3>MVP Sprint (2–4 weeks)</h3>
+              </div>
+              <div class="pricing-features">
+                <ul>
+                  <li>Scope → Architecture → Build → Deploy</li>
+                  <li>Repo ownership + docs + handoff</li>
+                  <li>Fixed scope, clear milestones</li>
+                </ul>
+              </div>
+              <div class="pricing-cta"><a href="#contact" class="btn btn-primary btn-lg w-100">Request Scoping Call</a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="pricing-card">
+              <div class="pricing-header">
+                <h3>Feature Build</h3>
+              </div>
+              <div class="pricing-features">
+                <ul>
+                  <li>One critical feature shipped fast</li>
+                  <li>AI-assisted tests & docs</li>
+                  <li>Integrates with your stack</li>
+                </ul>
+              </div>
+              <div class="pricing-cta"><a href="#contact" class="btn btn-primary btn-lg w-100">Ship This Feature</a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="pricing-card">
+              <div class="pricing-header">
+                <h3>AI Advisory</h3>
+              </div>
+              <div class="pricing-features">
+                <ul>
+                  <li>Tooling, prompts, guardrails</li>
+                  <li>Roadmaps & hiring guidance</li>
+                  <li>Security & reliability basics</li>
+                </ul>
+              </div>
+              <div class="pricing-cta"><a href="#contact" class="btn btn-primary btn-lg w-100">Talk Strategy</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="success-card">
+              <div class="success-header">
+                <h3>What You Can Expect</h3>
+                <span class="badge bg-success">Founder-Focused</span>
+              </div>
+              <p class="success-description">
+                Transparent scope, weekly demos, and clean handoff. Fast, pragmatic builds using modern web stacks—<em>accelerated</em> by AI but reviewed by a human.
+              </p>
+              <div class="success-results"><strong>Deliverables:</strong> Source code (GitHub), deployment, docs, and a clear roadmap for what’s next.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="success-stories" class="py-5">
+      <div class="container">
+        <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">Student Wins</h2><p class="section-subtitle">What happens when you learn AI the right way.</p></div></div>
+        <div class="row">
+          <div class="col-lg-4 mb-4"><div class="success-card"><div class="success-header"><h3>First App Shipped</h3><span class="badge bg-success">2× Faster</span></div><p class="success-description">Beginner shipped a React app with AI-guided components and tests.</p><div class="success-results"><strong>Results:</strong> 2× speed, fewer bugs, portfolio-ready project.</div></div></div>
+          <div class="col-lg-4 mb-4"><div class="success-card"><div class="success-header"><h3>From Stuck to Shipped</h3><span class="badge bg-primary">Debug Mastery</span></div><p class="success-description">Junior dev learned a repeatable prompt-and-fix workflow for nasty errors.</p><div class="success-results"><strong>Results:</strong> hours saved weekly; new confidence on the job.</div></div></div>
+          <div class="col-lg-4 mb-4"><div class="success-card"><div class="success-header"><h3>Career Transition</h3><span class="badge bg-warning">Job-Ready</span></div><p class="success-description">Self-taught learner built 3 projects (API, frontend, AI tool) in 6 weeks.</p><div class="success-results"><strong>Results:</strong> interviews secured; compelling GitHub profile.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-5 bg-light">
+      <div class="container">
+        <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">FAQ: AI Coding Tutor (USA)</h2><p class="section-subtitle">Clear answers for beginners and juniors.</p></div></div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="pricing-card">
+              <h3>“Why not just use AI instead of a tutor?”</h3>
+              <p>Because <strong>most new coders use AI incorrectly</strong>. I teach you the <em>human judgment</em> that makes AI powerful: scoping, context, verification, tests, and iteration. After that, you won’t need weekly tutoring—you’ll be self-directed.</p>
+              <hr/><h3>“What stacks do you support?”</h3>
+              <p>Beginner-friendly web stacks (HTML/CSS/JS, React, Node/Express, simple Python) and general coding foundations. We’ll tailor to your goals.</p>
+              <hr/><h3>“Do you build apps for startups?”</h3>
+              <p>Yes—see the “For Startups” section. Limited capacity and US-based only.</p>
+              <hr/><h3>Guarantee</h3>
+              <p>If a session doesn’t move you forward, <strong>you don’t pay</strong>. I care about progress, not billable hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="py-5">
+      <div class="container">
+        <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">Simple Pricing</h2><p class="section-subtitle">Transparent, flexible, beginner-friendly.</p></div></div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 mb-4"><div class="pricing-card"><div class="pricing-header"><h3>Single Session</h3><div class="price"><span class="currency">$</span><span class="amount">79</span><span class="period">/hour</span></div></div><div class="pricing-features"><ul><li>1-hour hands-on session</li><li>Personalized plan & homework</li><li>Follow-up notes & resources</li><li>Email support for 24 hours</li></ul></div><div class="pricing-cta"><a href="#contact" class="btn btn-primary btn-lg w-100">Book Session</a></div></div></div>
+          <div class="col-lg-4 mb-4"><div class="pricing-card featured"><div class="pricing-header"><h3>Starter Package</h3><div class="price"><span class="currency">$</span><span class="amount">59</span><span class="period">/hour</span></div><div class="discount">Save 25%</div></div><div class="pricing-features"><ul><li>5 sessions (project-based)</li><li>Custom learning roadmap</li><li>Priority scheduling</li><li>Unlimited email support</li><li>Progress tracking & reviews</li></ul></div><div class="pricing-cta"><a href="#contact" class="btn btn-primary btn-lg w-100">Get Package</a></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">Book Your Free Intro Call</h2><p class="section-subtitle">Tell me your goals. I’ll map the fastest path to your first shipped project.</p></div></div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact-form">
+              <form id="contactForm">
+                <div class="row">
+                  <div class="col-md-6 mb-3"><label for="firstName" class="form-label">First Name *</label><input type="text" class="form-control" id="firstName" name="firstName" required></div>
+                  <div class="col-md-6 mb-3"><label for="lastName" class="form-label">Last Name *</label><input type="text" class="form-control" id="lastName" name="lastName" required></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-3"><label for="email" class="form-label">Email *</label><input type="email" class="form-control" id="email" name="email" required></div>
+                  <div class="col-md-6 mb-3"><label for="phone" class="form-label">Phone</label><input type="tel" class="form-control" id="phone" name="phone"></div>
+                </div>
+                <div class="mb-3"><label for="experience" class="form-label">Current Experience Level *</label><select class="form-select" id="experience" name="experience" required><option value="">Select your level</option><option value="beginner">Beginner (0–1 years)</option><option value="intermediate">Intermediate (1–3 years)</option><option value="advanced">Advanced (3+ years)</option></select></div>
+                <div class="mb-3"><label for="goals" class="form-label">What are your AI learning or startup goals? *</label><textarea class="form-control" id="goals" name="goals" rows="3" required placeholder="e.g., Master Copilot, build MVP, fix bugs faster, ship a feature..."></textarea></div>
+                <div class="mb-3"><label for="preferredTime" class="form-label">Preferred Session Time</label><select class="form-select" id="preferredTime" name="preferredTime"><option value="">Select preferred time</option><option value="morning">Morning (9 AM – 12 PM)</option><option value="afternoon">Afternoon (12 PM – 5 PM)</option><option value="evening">Evening (5 PM – 9 PM)</option><option value="weekend">Weekend</option></select></div>
+                <div class="text-center"><button type="submit" class="btn btn-primary btn-lg"><i class="fas fa-paper-plane me-2"></i>Request Intro Call</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"><h5><i class="fas fa-robot me-2"></i>AI Coding Tutor</h5><p>US-based 1:1 mentorship that teaches beginners & junior devs how to use AI tools the right way to build real software. Startup MVP builds available.</p></div>
+          <div class="col-md-6 text-md-end"><h6>Contact</h6><p><i class="fas fa-envelope me-2"></i>hello@aicodingtutor.org<br><i class="fas fa-location-dot me-2"></i>Online (United States)</p></div>
+        </div>
+        <hr><div class="row"><div class="col-12 text-center"><p>&copy; 2025 AI Coding Tutor — Avan Sardar. All rights reserved.</p></div></div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+          link.addEventListener('click', function(e) {
+            const id = this.getAttribute('href');
+            if (id.length > 1) { e.preventDefault(); const el=document.querySelector(id); if (el) window.scrollTo({ top: el.offsetTop-80, behavior:'smooth' }); }
+          });
+        });
+        const sections=document.querySelectorAll('section[id]'); const navItems=document.querySelectorAll('.nav-link');
+        window.addEventListener('scroll', function(){ let current=''; sections.forEach(s=>{const t=s.offsetTop-100; const h=s.clientHeight; if (pageYOffset>=t && pageYOffset<t+h) current=s.id;}); navItems.forEach(i=>{i.classList.remove('active'); if(i.getAttribute('href')==='#'+current)i.classList.add('active');}); });
+        const form=document.getElementById('contactForm');
+        function notify(msg,type='info'){const n=document.createElement('div'); n.className='notification'; n.style.cssText='position:fixed;top:20px;right:20px;background:'+(type==='success'?'#28a745':type==='error'?'#dc3545':'#0d6efd')+';color:#fff;padding:1rem 1.25rem;border-radius:8px;box-shadow:0 4px 15px rgba(0,0,0,.2);z-index:9999;transform:translateX(100%);transition:transform .3s ease;'; n.innerHTML='<div style=\"display:flex;gap:.75rem;align-items:center;\"><i class=\"fa-solid '+(type==='success'?'fa-check-circle':'fa-circle-info')+'\"></i><span>'+msg+'</span><button style=\"all:unset;margin-left:.5rem;cursor:pointer;font-weight:700\">×</button></div>'; document.body.appendChild(n); setTimeout(()=>{n.style.transform='translateX(0)'},50); n.querySelector('button').onclick=()=>n.remove(); setTimeout(()=>{n.style.transform='translateX(100%)'; setTimeout(()=>n.remove(),300);},5000);}
+        if(form){ form.addEventListener('submit', function(e){ e.preventDefault(); const data=Object.fromEntries(new FormData(this)); if(!data.firstName||!data.lastName||!data.email||!data.experience||!data.goals){ notify('Please fill in all required fields.','error'); return;} const emailRx=/^[^\s@]+@[^\s@]+\.[^\s@]+$/; if(!emailRx.test(data.email)){ notify('Please enter a valid email address.','error'); return;} notify('Thanks! I\\'ll reach out within 24 hours to schedule your intro call.','success'); this.reset(); window.scrollTo({ top:0, behavior:'smooth' }); });}
+      });
+    </script>
+</body>
+</html>
