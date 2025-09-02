@@ -435,6 +435,40 @@ hr {
     transform: translateY(0)
 }
 
+/* ====== Container Fix ====== */
+/* Ensure Bootstrap container max-width works properly across all breakpoints */
+@media (min-width: 576px) {
+    .container-sm {
+        max-width: 540px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-md {
+        max-width: 720px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-lg {
+        max-width: 960px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-xl {
+        max-width: 1140px !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-xxl {
+        max-width: 1320px !important;
+    }
+}
+
 /* ====== Responsive ====== */
 @media (max-width: 992px) {
     .hero-title {

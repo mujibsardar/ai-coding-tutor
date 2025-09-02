@@ -1,55 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Build My Startup App (USA) — Fixed-Scope MVP in 2–4 Weeks | Avan</title>
-  <meta name="description" content="US-based MVP & startup app development. Fixed-scope sprints (2–4 weeks), transparent milestones, repo ownership & clean handoff. AI-accelerated, human-reviewed.">
-  <link rel="canonical" href="https://aicodingtutor.org/build-my-startup-app">
-  <meta property="og:title" content="Build My Startup App — Fixed-Scope MVP (US)">
-  <meta property="og:description" content="Founder-friendly MVP development: scope, build, test, deploy, handoff. AI-accelerated, human-reviewed.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://aicodingtutor.org/build-my-startup-app">
-  <meta property="og:image" content="https://aicodingtutor.org/og-startup.jpg">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <title>Build My Startup App — AI-Accelerated MVP in 2–4 Weeks (USA) | Avan</title>
+  <meta name="description" content="Hire a US-based builder to design, build, and launch your startup MVP fast. Fixed-scope sprints, weekly demos, clean code, and AI-accelerated delivery. Book a free MVP strategy call." />
+  <link rel="canonical" href="https://aicodingtutor.org/build-my-startup-app.html"/>
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="Build My Startup App — AI-Accelerated MVP in 2–4 Weeks (USA)"/>
+  <meta property="og:description" content="Founder-friendly, done-with-you or done-for-you MVP builds. Clear scope. Weekly demos. Clean handoff. Book a free strategy call."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://aicodingtutor.org/build-my-startup-app.html"/>
+  <meta property="og:image" content="https://aicodingtutor.org/og-startup-mvp.jpg"/>
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Build My Startup App — AI-Accelerated MVP in 2–4 Weeks (USA)"/>
+  <meta name="twitter:description" content="Scope → Build → Demo → Launch. US-based engineering + AI superpowers. Book a free MVP strategy call."/>
+
+  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <!-- Base site styles (keeps design consistent with main page) -->
+  <link rel="stylesheet" href="styles.css"/>
+
+  <!-- Calendly (modal) -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"/>
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <!-- Theme override: switch accent from blue to darker green, keep everything else identical -->
+  <style>
+    :root{
+      --primary: #15803d;      /* green-700 */
+      --primary-600:#166534;   /* slightly darker for hover */
+      --primary-100:#dcfce7;   /* green-100 */
+      --success:#16a34a;       /* green-600 for checkmarks/badges */
+    }
+    /* Optional: hero accent headline underline */
+    .kicker{display:inline-block;padding:.25rem .5rem;border:1px solid var(--primary);border-radius:999px;font-size:.85rem;font-weight:700;color:var(--primary);background:var(--primary-100)}
+    .btn-success{background:var(--primary)!important;border:none}
+    .btn-success:hover{background:var(--primary-600)!important}
+    .badge.bg-success{background:var(--primary)!important}
+    .text-success{color:var(--primary)!important}
+    /* subtle hero tint */
+    .hero-tint{background:linear-gradient(180deg, rgba(21,128,61,.06), rgba(21,128,61,0)) ; border:1px solid var(--primary-100)}
+  </style>
+
+  <!-- JSON-LD: Service + Breadcrumb -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Startup MVP & App Development (US)",
-    "provider": {"@type":"Person","name":"Avan Sardar","url":"https://aicodingtutor.org"},
-    "areaServed": "United States",
-    "serviceType": "MVP Development",
-    "offers": {
-      "@type": "AggregateOffer",
-      "priceCurrency": "USD",
-      "lowPrice": "3000",
-      "highPrice": "15000",
-      "availability": "https://schema.org/InStock"
+    "@context":"https://schema.org",
+    "@type":"Service",
+    "name":"Startup MVP Development",
+    "description":"AI-accelerated MVP design and build for US-based startups with clear scope, weekly demos, and production-ready handoff.",
+    "provider":{
+      "@type":"Person",
+      "name":"Avan Sardar",
+      "url":"https://aicodingtutor.org",
+      "sameAs":["https://linkedin.com/in/avansardar"]
+    },
+    "areaServed":{"@type":"Country","name":"United States"},
+    "serviceType":"Software Development",
+    "offers":{
+      "@type":"Offer",
+      "priceCurrency":"USD",
+      "priceSpecification":{"@type":"PriceSpecification","price":"Custom"},
+      "availability":"https://schema.org/InStock"
     }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"AI Coding Tutor","item":"https://aicodingtutor.org"},
+      {"@type":"ListItem","position":2,"name":"Build My Startup App","item":"https://aicodingtutor.org/build-my-startup-app.html"}
+    ]
   }
   </script>
 </head>
 <body>
-  <!-- Nav -->
+  <!-- Nav (same layout as main site) -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="aicodingtutor_v4.html"><i class="fas fa-robot me-2"></i>Avan — AI Coding Tutor</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <a class="navbar-brand" href="/"><img src="images/self.png" alt="Avan" class="me-2" style="width:24px;height:24px;border-radius:50%;">AI Coding Tutor</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="nav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="aicodingtutor_v4.html#startups">Back to Startups</a></li>
           <li class="nav-item"><a class="nav-link" href="#offers">Offers</a></li>
           <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+          <li class="nav-item"><a class="nav-link" href="#deliverables">Deliverables</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
           <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#startups">Back to Tutoring</a></li>
         </ul>
       </div>
     </div>
@@ -60,21 +107,24 @@
     <div class="container">
       <div class="row align-items-center min-vh-100">
         <div class="col-lg-7">
-          <h1 class="hero-title">Build My Startup App (US) — <span class="text-primary">Fixed-Scope MVP in 2–4 Weeks</span></h1>
-          <p class="hero-subtitle">Founder-friendly sprints: scope → build → test → deploy → handoff. <strong>AI-accelerated, human-reviewed</strong> so you launch fast—and own everything.</p>
+          <span class="kicker mb-3">Solo Founder • US-Based • Fast</span>
+          <h1 class="hero-title mt-2">🚀 <span class="text-primary">Turn Your Million-Dollar Idea Into Reality</span> — MVP in 2–4 Weeks</h1>
+          <p class="hero-subtitle">While your competitors are still <strong>hiring expensive agencies</strong> or struggling with <strong>unreliable freelancers on Upwork</strong>, you'll have a <strong>production-ready MVP</strong> that investors can actually use and fund.<br><br>I'm not just another developer—I'm your <strong>AI-powered co-founder</strong> who combines <strong>1000+ tutoring sessions of experience</strong> with <strong>5+ full-stack apps built</strong> and <strong>cutting-edge AI tools</strong> to build apps 10x faster than traditional development.<br><br>Plus, get <strong>ongoing monthly support</strong> to scale your app as you grow—no more hunting for developers every time you need a new feature.</p>
           <div class="hero-cta">
-            <a href="#contact" class="btn btn-primary btn-lg me-3"><i class="fas fa-calendar-check me-2"></i>Request Scoping Call</a>
-            <a href="#offers" class="btn btn-outline-light btn-lg"><i class="fas fa-bolt me-2"></i>See Offers</a>
+            <a href="#" id="cal-hero" class="btn btn-success btn-lg me-3"><i class="fa-solid fa-calendar-check me-2"></i>🚀 Get Your Free MVP Strategy Session</a>
+            <a href="#offers" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-bolt me-2"></i>⚡ See Why This Beats Upwork</a>
           </div>
-          <div class="hero-stats mt-4">
+          <div class="hero-stats mt-4 hero-tint rounded-lg p-3">
             <div class="row text-center">
-              <div class="col-4"><div class="stat-number">2–4 wks</div><div class="stat-label">Typical MVP</div></div>
-              <div class="col-4"><div class="stat-number">100%</div><div class="stat-label">Repo Ownership</div></div>
-              <div class="col-4"><div class="stat-number">Weekly</div><div class="stat-label">Demos</div></div>
+              <div class="col-4"><div class="stat-number">10x</div><div class="stat-label">Faster Than Upwork</div></div>
+              <div class="col-4"><div class="stat-number">5+</div><div class="stat-label">Full-Stack Apps Built</div></div>
+              <div class="col-4"><div class="stat-number">24/7</div><div class="stat-label">Ongoing Support</div></div>
             </div>
           </div>
         </div>
-        <div class="col-lg-5 text-center"><div class="hero-image"><i class="fas fa-rocket fa-9x text-primary"></i></div></div>
+        <div class="col-lg-5 text-center mt-4 mt-lg-0">
+          <div class="hero-image"><img src="images/photo-output.JPEG" alt="Avan - AI-Powered Startup Builder" class="img-fluid rounded-circle" style="max-width: 400px; height: auto;"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -82,50 +132,93 @@
   <!-- Offers -->
   <section id="offers" class="py-5 bg-light">
     <div class="container">
+      <div class="row"><div class="col-12 text-center mb-5">
+        <h2 class="section-title">🔥 Why This Destroys Upwork & Agencies</h2>
+        <p class="section-subtitle">Stop wasting time with <strong>unreliable freelancers</strong> and <strong>overpriced agencies</strong>. Here's why smart founders choose AI-powered development:</p>
+      </div></div>
+
       <div class="row">
-        <div class="col-12 text-center mb-5"><h2 class="section-title">Offers</h2><p class="section-subtitle">Choose what fits—clear scope, clear outcomes, clean handoff.</p></div>
+        <div class="col-lg-4 mb-4">
+          <div class="pricing-card">
+            <div class="pricing-header"><h3>🚀 MVP Sprint (2–4 Weeks)</h3></div>
+            <div class="pricing-features">
+              <ul>
+                <li><strong>10x faster</strong> than Upwork freelancers</li>
+                <li>AI-accelerated development with human oversight</li>
+                <li>Weekly demos + transparent progress tracking</li>
+                <li><strong>Ongoing monthly support</strong> after launch</li>
+              </ul>
+            </div>
+            <div class="pricing-cta"><a href="#" id="cal-mvp" class="btn btn-success btn-lg w-100">🚀 Start Your MVP Sprint</a></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="pricing-card">
+            <div class="pricing-header"><h3>⚡ Feature Build</h3></div>
+            <div class="pricing-features">
+              <ul>
+                <li><strong>No more Upwork headaches</strong> - reliable delivery</li>
+                <li>Critical features shipped in days, not weeks</li>
+                <li>Production-ready code that actually works</li>
+                <li><strong>Monthly retainer available</strong> for ongoing features</li>
+              </ul>
+            </div>
+            <div class="pricing-cta"><a href="#" id="cal-feature" class="btn btn-success btn-lg w-100">⚡ Ship Your Feature</a></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="pricing-card">
+            <div class="pricing-header"><h3>🧠 AI Advisory & Due Diligence</h3></div>
+            <div class="pricing-features">
+              <ul>
+                <li><strong>Skip the agency markup</strong> - direct expert access</li>
+                <li>AI strategy that actually works in production</li>
+                <li>Technical due diligence for investors</li>
+                <li><strong>Ongoing monthly advisory</strong> available</li>
+              </ul>
+            </div>
+            <div class="pricing-cta"><a href="#" id="cal-advisory" class="btn btn-success btn-lg w-100">🧠 Talk Strategy</a></div>
+          </div>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="pricing-card">
-            <div class="pricing-header"><h3>MVP Sprint</h3></div>
-            <div class="pricing-features">
-              <ul>
-                <li>Scope doc + architecture outline</li>
-                <li>Build core flows (auth, CRUD, payments*)</li>
-                <li>Tests + docs + deploy</li>
-                <li>Weekly demos + handoff</li>
-              </ul>
+
+      <!-- Why This Beats Upwork -->
+      <div class="row mt-5">
+        <div class="col-12">
+          <div class="success-card">
+            <div class="success-header">
+              <h3>🔥 Why Smart Founders Choose This Over Upwork</h3>
+              <span class="badge bg-success">The Truth</span>
             </div>
-            <div class="pricing-cta"><a href="#contact" class="btn btn-primary btn-lg w-100">Start My MVP</a></div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="pricing-card">
-            <div class="pricing-header"><h3>Feature Build</h3></div>
-            <div class="pricing-features">
-              <ul>
-                <li>One critical feature shipped fast</li>
-                <li>Integrates with your stack</li>
-                <li>AI-assisted tests & docs</li>
-                <li>Production-ready PR</li>
-              </ul>
+            <div class="row">
+              <div class="col-lg-6">
+                <h4>❌ Upwork Problems:</h4>
+                <ul>
+                  <li><strong>Unreliable freelancers</strong> who disappear mid-project</li>
+                  <li><strong>Poor communication</strong> across time zones</li>
+                  <li><strong>Low-quality code</strong> that breaks in production</li>
+                  <li><strong>No ongoing support</strong> after project completion</li>
+                  <li><strong>Hidden costs</strong> and scope creep</li>
+                  <li><strong>Weeks of back-and-forth</strong> for simple changes</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <h4>✅ Our Solution:</h4>
+                <ul>
+                  <li><strong>Solo US-based expert</strong> with proven track record</li>
+                  <li><strong>Real-time communication</strong> and weekly demos</li>
+                  <li><strong>Production-ready code</strong> that actually works</li>
+                  <li><strong>Monthly support retainer</strong> for ongoing features</li>
+                  <li><strong>Fixed pricing</strong> with no surprises</li>
+                  <li><strong>AI-accelerated delivery</strong> - 10x faster than traditional</li>
+                </ul>
+              </div>
             </div>
-            <div class="pricing-cta"><a href="#contact" class="btn btn-primary btn-lg w-100">Ship This Feature</a></div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="pricing-card">
-            <div class="pricing-header"><h3 id="advisory">AI Advisory / Fractional CTO</h3></div>
-            <div class="pricing-features">
-              <ul>
-                <li>Tooling, prompts, guardrails</li>
-                <li>Roadmap, hiring, code review</li>
-                <li>Security & reliability basics</li>
-                <li>Founder training on AI workflows</li>
-              </ul>
+            <div class="success-results mt-3">
+              <strong>Bottom Line:</strong> While your competitors waste months with unreliable freelancers, you'll have a working MVP that investors can actually use and fund. Plus, ongoing monthly support means you never have to hunt for developers again.
             </div>
-            <div class="pricing-cta"><a href="#contact" class="btn btn-primary btn-lg w-100">Talk Strategy</a></div>
           </div>
         </div>
       </div>
@@ -135,100 +228,292 @@
   <!-- Process -->
   <section id="process" class="py-5">
     <div class="container">
-      <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">Process & Deliverables</h2><p class="section-subtitle">Move fast without breaking trust.</p></div></div>
+      <div class="row"><div class="col-12 text-center mb-5">
+        <h2 class="section-title">The Zero-Fluff Build Process</h2>
+        <p class="section-subtitle">Fast, pragmatic, transparent. Founder-friendly from day one.</p>
+      </div></div>
+
       <div class="row">
-        <div class="col-lg-6">
-          <div class="success-card"><div class="success-header"><h3>1) Scope & Plan</h3><span class="badge bg-primary">1–2 Days</span></div><p class="success-description">We write a short scope: goals, core flows, out-of-scope items, and milestones. Decide web vs mobile MVP.</p><div class="success-results"><strong>Deliverable:</strong> Scope doc + milestone plan.</div></div>
-          <div class="success-card mt-4"><div class="success-header"><h3>2) Build Core Flows</h3><span class="badge bg-success">1–2 Weeks</span></div><p class="success-description">Auth, data model, core UI, payments/integrations as needed. AI accelerates boilerplate; I review every commit.</p><div class="success-results"><strong>Deliverable:</strong> Running app + repo with PRs.</div></div>
-        </div>
-        <div class="col-lg-6">
-          <div class="success-card"><div class="success-header"><h3>3) Test & Polish</h3><span class="badge bg-warning">3–5 Days</span></div><p class="success-description">Sanity tests, basic e2e paths, error handling, and docs. Weekly demo for feedback.</p><div class="success-results"><strong>Deliverable:</strong> Tests + docs + demo notes.</div></div>
-          <div class="success-card mt-4"><div class="success-header"><h3>4) Deploy & Handoff</h3><span class="badge bg-info">1–2 Days</span></div><p class="success-description">Prod deploy, environment notes, and clean ownership transfer. Optional founder training.</p><div class="success-results"><strong>Deliverable:</strong> Live app, credentials, and handoff.</div></div>
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-12">
+        <div class="col-lg-6 mb-4">
           <div class="success-card">
-            <div class="success-header"><h3>Stacks I Use</h3><span class="badge bg-secondary">Pragmatic</span></div>
-            <p class="success-description">React/Next.js, Node/Express, simple Python services, Postgres/Firebase, Stripe, basic AWS/GCP. Mobile via React Native or Expo when needed. No-code where it makes sense.</p>
+            <div class="success-header"><h3>1) Ruthless Scoping</h3><span class="badge bg-success">Day 0–2</span></div>
+            <p class="success-description">We break the vision into a 2–3 week outcome. Wireframes + acceptance criteria for core flows only.</p>
+            <div class="success-results"><strong>Output:</strong> One-page scope, user flows, risk list.</div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <div class="success-card">
+            <div class="success-header"><h3>2) Architecture</h3><span class="badge bg-success">Day 2–3</span></div>
+            <p class="success-description">Pick boring, scalable defaults: React/Next, Node/Express or Python, Postgres/Supabase, Stripe, Auth.</p>
+            <div class="success-results"><strong>Output:</strong> Diagram + repo plan + environments.</div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <div class="success-card">
+            <div class="success-header"><h3>3) AI-Accelerated Build</h3><span class="badge bg-success">Week 1–2</span></div>
+            <p class="success-description">I orchestrate ChatGPT/Cursor/Copilot/Claude to draft code, then harden it manually. No blind copy/paste.</p>
+            <div class="success-results"><strong>Output:</strong> Running app with core flows.</div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <div class="success-card">
+            <div class="success-header"><h3>4) Demos & Feedback</h3><span class="badge bg-success">Weekly</span></div>
+            <p class="success-description">Short weekly demo. We adjust scope if needed—<em>without</em> jeopardizing launch.</p>
+            <div class="success-results"><strong>Output:</strong> Live demo + changelog.</div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <div class="success-card">
+            <div class="success-header"><h3>5) Hardening</h3><span class="badge bg-success">Final Week</span></div>
+            <p class="success-description">Tests, auth rules, observability, docs. Uptime basics so you can sleep.</p>
+            <div class="success-results"><strong>Output:</strong> Tests + metrics + logging.</div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <div class="success-card">
+            <div class="success-header"><h3>6) Handoff</h3><span class="badge bg-success">Launch</span></div>
+            <p class="success-description">You own the repo, infra, and accounts. No lock-in. Loom walkthrough + onboarding your team.</p>
+            <div class="success-results"><strong>Output:</strong> Repo ownership + docs + roadmap.</div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+  <!-- Deliverables -->
+  <section id="deliverables" class="py-5 bg-light">
+    <div class="container">
+      <div class="row"><div class="col-12 text-center mb-5">
+        <h2 class="section-title">Exactly What You Get</h2>
+        <p class="section-subtitle">No mystery. These are standard for every MVP sprint.</p>
+      </div></div>
+
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-code-branch fa-3x text-success"></i></div>
+            <h3>Production-Ready Repo</h3>
+            <p class="success-description">Clean code, clear structure, environment configs, and CI basics.</p>
+            <ul class="service-features">
+              <li>Next.js/React or simple React SPA</li>
+              <li>Node/Express or Python (FastAPI/Flask)</li>
+              <li>Postgres/Supabase + Prisma/SQLAlchemy</li>
+              <li>Stripe, Auth (Clerk/Auth.js), Emails</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-clipboard-check fa-3x text-success"></i></div>
+            <h3>Tests, Docs & Looms</h3>
+            <p class="success-description">The playbook your next engineer will thank you for.</p>
+            <ul class="service-features">
+              <li>Setup, run, deploy instructions</li>
+              <li>Key design decisions documented</li>
+              <li>Happy-path tests & auth rules</li>
+              <li>Short Looms for onboarding</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-cta text-center mt-3">
+        <a href="#" id="cal-deliver" class="btn btn-success btn-lg"><i class="fa-solid fa-calendar-days me-2"></i>Walk Through a Sample Repo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-5">
+    <div class="container">
+      <div class="row"><div class="col-12 text-center mb-5">
+        <h2 class="section-title">Pricing & Timelines</h2>
+        <p class="section-subtitle">Transparent and scope-driven. No hourly surprises.</p>
+      </div></div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-4 mb-4">
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>MVP Sprint</h3>
+              <div class="price"><span class="currency">$</span><span class="amount">—</span><span class="period">/fixed</span></div>
+              <div class="discount">2–4 weeks</div>
+            </div>
+            <div class="pricing-features">
+              <ul>
+                <li>Fixed scope & milestones</li>
+                <li>Weekly demos</li>
+                <li>Post-launch support window</li>
+              </ul>
+            </div>
+            <div class="pricing-cta"><a href="#" id="cal-pricing-mvp" class="btn btn-success btn-lg w-100">Get a Quote</a></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="pricing-card featured">
+            <div class="pricing-header">
+              <h3>Feature Build</h3>
+              <div class="price"><span class="currency">$</span><span class="amount">—</span><span class="period">/fixed</span></div>
+              <div class="discount">3–10 days</div>
+            </div>
+            <div class="pricing-features">
+              <ul>
+                <li>One feature, end-to-end</li>
+                <li>Tests & docs included</li>
+                <li>PRs into your repo</li>
+              </ul>
+            </div>
+            <div class="pricing-cta"><a href="#" id="cal-pricing-feature" class="btn btn-success btn-lg w-100">Scope My Feature</a></div>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-center text-muted mt-2">Solo founder, US-based. Limited capacity to maintain quality and personal attention.</p>
+
+      <!-- Ongoing Support -->
+      <div class="row mt-5">
+        <div class="col-12">
+          <div class="success-card">
+            <div class="success-header">
+              <h3>🔄 Ongoing Monthly Support - Never Hunt for Developers Again</h3>
+              <span class="badge bg-success">Game Changer</span>
+            </div>
+            <p class="success-description">
+              <strong>Stop the endless cycle</strong> of finding new developers every time you need a feature. Our monthly support retainer gives you:
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><strong>Priority feature development</strong> - no waiting in queues</li>
+                  <li><strong>Bug fixes and maintenance</strong> - keep your app running smoothly</li>
+                  <li><strong>Performance optimization</strong> - scale as you grow</li>
+                  <li><strong>Security updates</strong> - protect your users and data</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><strong>Technical consulting</strong> - make smart decisions</li>
+                  <li><strong>Code reviews</strong> - maintain quality standards</li>
+                  <li><strong>Deployment support</strong> - smooth releases every time</li>
+                  <li><strong>Emergency response</strong> - when things break, we fix them fast</li>
+                </ul>
+              </div>
+            </div>
+            <div class="success-results mt-3">
+              <strong>Monthly Retainer Options:</strong> $1,200/month for 20 hours of development + unlimited support, or $2,400/month for 40 hours + priority access. Perfect for growing startups who need reliable, ongoing development.
+            </div>
+            <div class="pricing-cta mt-3">
+              <a href="#" id="cal-support" class="btn btn-success btn-lg"><i class="fa-solid fa-calendar-days me-2"></i>Discuss Monthly Support</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- FAQ -->
   <section id="faq" class="py-5 bg-light">
     <div class="container">
-      <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">Cost, Timeline & Ownership — FAQ</h2><p class="section-subtitle">The questions founders actually ask.</p></div></div>
+      <div class="row"><div class="col-12 text-center mb-5">
+        <h2 class="section-title">Founder FAQ</h2>
+        <p class="section-subtitle">Short, honest answers to common questions.</p>
+      </div></div>
+
       <div class="row justify-content-center">
         <div class="col-lg-10">
           <div class="pricing-card">
-            <h3>How much does an MVP cost?</h3>
-            <p>Fixed-scope MVP sprints typically range from <strong>$3k–$15k</strong> depending on features, integrations, and polish. We’ll finalize a clear scope before we start.</p>
-            <hr/><h3>How long will it take?</h3>
-            <p>Most MVPs land in <strong>2–4 weeks</strong> with weekly demos. Feature builds are faster.</p>
-            <hr/><h3>Do I own the code and IP?</h3>
-            <p>Yes. You own the repo, infra, and IP. I deliver docs and a clean handoff.</p>
-            <hr/><h3>No-code or custom code?</h3>
-            <p>We’ll choose what fits: no-code for speed and validation, custom where control or performance matters. Hybrids are common.</p>
-            <hr/><h3>Can you add AI features?</h3>
-            <p>Yes—chat, summarization, RAG/search, and safe agent workflows. We’ll add guardrails and tests.</p>
+            <h3>Will AI build everything?</h3>
+            <p>No. AI drafts quickly, but <strong>human judgment</strong> ensures clean architecture, safe auth, and maintainable code. I use AI for speed—never as a crutch.</p>
+            <hr/>
+            <h3>Do I own everything?</h3>
+            <p>Yes. You own the repo, cloud accounts, and all assets. No lock-in, no surprises.</p>
+            <hr/>
+            <h3>What about security and reliability?</h3>
+            <p>We add sane defaults: auth rules, input validation, logging, error monitoring, and basic tests—right from the start.</p>
+            <hr/>
+            <h3>Can you work with my team?</h3>
+            <p>Absolutely. I can integrate with your engineers or hand off with Loom videos and docs that make onboarding easy.</p>
+            <hr/>
+            <h3>What stacks do you use?</h3>
+            <p>Modern, boring tech: React/Next, Node/Express or Python, Postgres/Supabase, Stripe, Clerk/Auth.js, Vercel/Fly/Render. If you have a preference, we’ll use it.</p>
+            <div class="pricing-cta mt-3"><a href="#" id="cal-faq" class="btn btn-success btn-lg"><i class="fa-solid fa-phone me-2"></i>Ask a Quick Question</a></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
+  <!-- CTA -->
   <section id="contact" class="py-5">
     <div class="container">
-      <div class="row"><div class="col-12 text-center mb-5"><h2 class="section-title">Request a Scoping Call</h2><p class="section-subtitle">Tell me what you’re building. I’ll map a path to a shippable MVP.</p></div></div>
+      <div class="row"><div class="col-12 text-center mb-5">
+        <h2 class="section-title">Ready to Ship Your MVP?</h2>
+        <p class="section-subtitle">Book a free 15-minute call. We’ll scope a realistic path to launch.</p>
+      </div></div>
       <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="contact-form">
-            <form id="startupContactForm">
-              <div class="row">
-                <div class="col-md-6 mb-3"><label for="firstName" class="form-label">First Name *</label><input type="text" class="form-control" id="firstName" required></div>
-                <div class="col-md-6 mb-3"><label for="lastName" class="form-label">Last Name *</label><input type="text" class="form-control" id="lastName" required></div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 mb-3"><label for="email" class="form-label">Email *</label><input type="email" class="form-control" id="email" required></div>
-                <div class="col-md-6 mb-3"><label for="company" class="form-label">Company / Project</label><input type="text" class="form-control" id="company"></div>
-              </div>
-              <div class="mb-3"><label for="goals" class="form-label">What are you building? *</label><textarea class="form-control" id="goals" rows="3" required placeholder="Key users, core flows, any integrations (e.g., Stripe)…"></textarea></div>
-              <div class="mb-3"><label for="timeline" class="form-label">Ideal Timeline</label><select class="form-select" id="timeline"><option value="">Select</option><option>2–3 weeks</option><option>1 month</option><option>ASAP</option></select></div>
-              <div class="text-center"><button type="submit" class="btn btn-primary btn-lg"><i class="fas fa-paper-plane me-2"></i>Request Call</button></div>
-            </form>
+        <div class="col-lg-6">
+          <div class="pricing-card">
+            <h3>Free MVP Strategy Call</h3>
+            <p>We’ll map your core flows, pick a stack, and estimate a timeline—on the spot.</p>
+            <div class="pricing-cta">
+              <a href="#" id="cal-final" class="btn btn-success btn-lg w-100"><i class="fa-solid fa-calendar-check me-2"></i>Book the Call</a>
+            </div>
+            <p class="text-center text-muted mt-3">Prefer email? <a href="mailto:hello@aicodingtutor.org">hello@aicodingtutor.org</a></p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- Footer (same style as main) -->
   <footer class="bg-dark text-light py-4">
     <div class="container">
       <div class="row">
-        <div class="col-md-6"><h5><i class="fas fa-rocket me-2"></i>Startup MVP by Avan</h5><p>Fixed-scope sprints that ship. AI-accelerated, human-reviewed. You own everything.</p></div>
-        <div class="col-md-6 text-md-end"><h6>Contact</h6><p><i class="fas fa-envelope me-2"></i>hello@aicodingtutor.org<br><i class="fas fa-location-dot me-2"></i>Online (United States)</p></div>
+        <div class="col-md-6"><h5><img src="images/self.png" alt="Avan" class="me-2" style="width:24px;height:24px;border-radius:50%;">AI Coding Tutor</h5>
+          <p>Solo US-based builder turning startup ideas into working software—fast, clean, and scalable.</p></div>
+        <div class="col-md-6 text-md-end">
+          <h6>Contact</h6>
+          <p><i class="fa-solid fa-envelope me-2"></i>hello@aicodingtutor.org<br><i class="fa-solid fa-location-dot me-2"></i>Online (United States)</p>
+        </div>
       </div>
-      <hr><div class="row"><div class="col-12 text-center"><p>&copy; 2025 AI Coding Tutor — Avan Sardar. All rights reserved.</p></div></div>
+      <hr/>
+      <div class="row"><div class="col-12 text-center"><p>&copy; 2025 AI Coding Tutor — Avan Sardar. All rights reserved.</p></div></div>
     </div>
   </footer>
 
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      document.querySelectorAll('a[href^="#"]').forEach(link => {
-        link.addEventListener('click', function(e) {
-          const id = this.getAttribute('href');
-          if (id.length > 1) { e.preventDefault(); const el=document.querySelector(id); if (el) window.scrollTo({ top: el.offsetTop-80, behavior:'smooth' }); }
+    document.addEventListener('DOMContentLoaded', function(){
+      // Smooth scroll + active link
+      document.querySelectorAll('a[href^="#"]').forEach(link=>{
+        link.addEventListener('click', function(e){
+          const id=this.getAttribute('href');
+          if(id.length>1){ e.preventDefault(); const el=document.querySelector(id); if(el) window.scrollTo({top:el.offsetTop-80, behavior:'smooth'})}
         });
       });
-      function notify(msg,type='info'){const n=document.createElement('div'); n.className='notification'; n.style.cssText='position:fixed;top:20px;right:20px;background:'+(type==='success'?'#28a745':type==='error'?'#dc3545':'#0d6efd')+';color:#fff;padding:1rem 1.25rem;border-radius:8px;box-shadow:0 4px 15px rgba(0,0,0,.2);z-index:9999;transform:translateX(100%);transition:transform .3s ease;'; n.innerHTML='<div style=\"display:flex;gap:.75rem;align-items:center;\"><i class=\"fa-solid '+(type==='success'?'fa-check-circle':'fa-circle-info')+'\"></i><span>'+msg+'</span><button style=\"all:unset;margin-left:.5rem;cursor:pointer;font-weight:700\">×</button></div>'; document.body.appendChild(n); setTimeout(()=>{n.style.transform='translateX(0)'},50); n.querySelector('button').onclick=()=>n.remove(); setTimeout(()=>{n.style.transform='translateX(100%)'; setTimeout(()=>n.remove(),300);},5000);}
-      const form=document.getElementById('startupContactForm');
-      if(form){ form.addEventListener('submit', function(e){ e.preventDefault(); const d=Object.fromEntries(new FormData(this)); if(!d.firstName||!d.lastName||!d.email||!d.goals){ notify('Please fill in all required fields.','error'); return;} const emailRx=/^[^\s@]+@[^\s@]+\.[^\s@]+$/; if(!emailRx.test(d.email)){ notify('Please enter a valid email address.','error'); return;} notify('Thanks! I\'ll reply within 24 hours to set up your scoping call.','success'); this.reset(); window.scrollTo({ top:0, behavior:'smooth' }); });}
+      const sections=document.querySelectorAll('section[id]'); const navItems=document.querySelectorAll('.nav-link');
+      window.addEventListener('scroll', function(){
+        let current=''; sections.forEach(s=>{const t=s.offsetTop-100, h=s.clientHeight; if(pageYOffset>=t && pageYOffset<t+h) current=s.id;});
+        navItems.forEach(i=>{i.classList.remove('active'); if(i.getAttribute('href')==='#'+current) i.classList.add('active');});
+      });
+
+      // Calendly modal on all CTAs
+      const ids = ['cal-hero','cal-mvp','cal-feature','cal-advisory','cal-deliver','cal-pricing-mvp','cal-pricing-feature','cal-faq','cal-final','cal-support'];
+      ids.forEach(id=>{
+        const el=document.getElementById(id);
+        if(el){ el.addEventListener('click', function(e){
+          e.preventDefault();
+          Calendly.initPopupWidget({
+            url: 'https://calendly.com/avantutor?hide_gdpr_banner=1&primary_color=15803d'
+          });
+          return false;
+        }) }
+      });
     });
   </script>
 </body>
 </html>
+
